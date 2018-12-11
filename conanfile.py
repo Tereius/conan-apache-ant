@@ -12,7 +12,7 @@ class AntConan(ConanFile):
     homepage = "https://ant.apache.org/index.html"
     description = "Apache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other."
     license = "https://www.apache.org/licenses/"
-    build_requires = "java_installer/8.0.144@bincrafters/stable"
+    build_requires = "java_installer/8.0.144@tereius/stable"
     settings = {"os_build": ["Windows", "Linux", "Macos"]}
 
     def source(self):
